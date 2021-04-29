@@ -1,0 +1,39 @@
+1. Implemente el metodo de la transformada inversa genere 10000 n´umeros
+aleatorios en una distribuci´on exponencial con media 5 media = 1 / λ
+a partir del generador
+est´andar m´ınimo de n´umeros aleatorios entre 0 y 1, usted puede establecer que semilla
+usar. Realice un histograma de los datos generados, puede agruparlos en 10 clases para facilitar la visualizaci´on.
+Comp´arelo con un histograma generado con un generador
+implementado, en Python puede usar numpy.random.exponential.
+Entrega ambas gr´aficas. Para generar el histograma se usa la librer´ıa
+matplotlib de Python.
+Considere la siguiente distribuci´on discreta:
+_____________
+| a  |  p   |
+-------------
+| 1  | 0.2  |
+| 3  | 0.15 |
+| 5  | 0.15 |
+| 7  | 0.1  |
+| 9  | 0.25 |
+| 11 |0.15  |
+____________
+
+Genere 1000 n´umeros mediante numpy.random y transformelos a esta distribuci´on mediante el m´etodo de la transformaci´on inversa.
+Genere en la salida de su programa una
+tabla mostrando la conversi´on. 
+Genere un histograma con cada uno de los a realizando
+un conteo, comp´arelo con un generador implementado.
+
+2. Pruebas de bondad
+Para estos dos puntos implemente un generador lineal congruente con a = 100, m = 165123,
+c = 1234 y x0 = 32 y genere 10000 n´umeros. Trabaje con una confianza del 5 %.
+4.  Implemente la prueba de Kolmogorov Smirnov, su aplicaci´on debe tener como
+salida la tabla en la que se eval´uan los n´umeros. Esta tabla debe ir en el informe y explique
+c´omo hizo para contar los n´umeros dentro de su aplicaci´on. Si no se cumple este requisito
+este punto no ser´a valido.
+2
+5. Implemente una prueba de p´oker, con k=3, recuerde generar los n´umeros con
+al menos 3, su aplicaci´on debe tener como salida la tabla en la que se eval´uan los n´umeros.
+Esta tabla debe ir en el informe y explique c´omo hizo para contar los n´umeros dentro de
+su aplicaci´on decimales. Si no se cumple este requisito este punto no ser´a valido.
